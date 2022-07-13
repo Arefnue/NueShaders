@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DitheredTransparencyScene
-  m_Shader: {fileID: -6465566751694194690, guid: e7dd2a2b8ec26e04f80d488dc87ffe6d, type: 3}
+  m_Name: SilhouetteMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: cee657ca64a23a249b865be219c1259b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -121,9 +121,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_5454b6e184c14276abe8629d9118cc94: {r: 0, g: 0, b: 0, a: 1}
     - Color_6e9812efbb3942f19e76f7a3cd493583: {r: 0.08550521, g: 1, b: 0, a: 1}
+    - Color_7fb0ba3cfbf14f3aa9ba4d4a53cd329c: {r: 1, g: 1, b: 1, a: 1}
     - Color_80add2b0a4274198ae9e5efe4e4f8482: {r: 0, g: 0.50077295, b: 1, a: 1}
-    - _BaseColor: {r: 1, g: 0.051886752, b: 0.051886752, a: 0.6745098}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
